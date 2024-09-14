@@ -1,0 +1,71 @@
+body {
+    height: 97vh;
+    width: 97vw;
+    font-family:Cursive, 'Courier New', Courier, monospace;
+    text-align: center;
+    text-shadow: 3px 4px 5px black;
+    background: url(../assets/SeeingHand.svg) center center no-repeat fixed darkgreen;
+    color: #ff0000;
+}
+h1{
+    font-size: 4rem;
+}
+.title {
+    margin: 35px 0px;
+    text-shadow: 5px 6px 7px black;
+}
+
+.choices{
+    margin: 100px 0px;
+}
+
+.rock-image {
+    width: 20%;
+    margin: 10px;
+}
+
+.paper-image, .scissors-image {
+    width: 20%;
+    margin: 10px;
+}
+
+.instruct {
+    font-size: 20px;
+}
+
+.scale { /*this keeps images a particular size*/
+    min-height: 100px;
+    min-width: 100px;
+    max-width: 350px;
+}
+
+.select {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.results {
+    margin: 30px 0px;
+    
+}
+
+.scoreboard {
+    display: inline;
+    margin: 0px 15px;
+}
+
+#win {
+    color: #41f53b;
+}
+
+#tie {
+    color: #f5dc3b;
+}
+
+#loss {
+    color: #f56a3b;
+}
+
